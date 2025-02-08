@@ -7,7 +7,7 @@ function App() {
   const isAuthenticated = false; // This will be connected to authentication state later
 
   return (
-    <Router>
+    <Router basename="/YourWorld">
       <Routes>
         {/* <Route path="/" element={isAuthenticated ? <ChatLayout /> : <Login />} /> */}
         <Route path="/" element={<ChatLayout />} />
